@@ -1,0 +1,23 @@
+//imports
+@import "../utilidades/mixin";
+@import "../utilidades/variables";
+
+/*estilos del footer*/
+
+.pie{
+    background-color: $color-header;
+    font-weight: bolder;
+    color: $color-font;
+    font-size: nth($list-fontsize, 3);
+    letter-spacing: 2px;
+    padding: 2*$padding-main;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    p{
+        margin: 0;
+    }
+    img{
+        width: 2rem;
+    }
+}
